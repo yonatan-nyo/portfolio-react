@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  animation: fadeIn 0.5s;
-}
-
 html {
   scroll-behavior: smooth !important;
   font-family: "Raleway", sans-serif;
@@ -19,6 +15,21 @@ html {
     opacity: 1;
   }
 }
+* {
+  animation: fadeIn 0.5s;
+}
+
+@keyframes slideRightToLeft {
+  0% {
+    transform: translateX(10%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.yonatan-illustration {
+  animation: slideRightToLeft 0.8s ease-in;
+}
 
 @layer base {
   h1,
@@ -30,10 +41,7 @@ html {
     @apply font-bold;
   }
 
-  h1 {
-    @apply text-4xl;
-  }
-  h2 {
-    @apply text-3xl;
+  .hash-link {
+    @apply ml-10 text-[17px] uppercase hover:border-b hover:border-slate-400 duration-300;
   }
 }
