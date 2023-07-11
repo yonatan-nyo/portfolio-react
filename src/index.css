@@ -31,6 +31,10 @@ html {
   animation: slideRightToLeft 0.8s ease-in;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 @layer base {
   h1,
   h2,
@@ -38,7 +42,7 @@ html {
   h4,
   h5,
   h6 {
-    @apply font-bold;
+    @apply font-bold text-gray-700;
   }
 
   .hash-link {

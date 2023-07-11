@@ -29,7 +29,7 @@ const Navbar = () => {
           ? "fixed w-screen h-[63px] md:h-[84px] bg-none top-0 left-0 z-[100] bg-[#f4f6f5] shadow-xl ease-in-out duration-300"
           : "fixed w-screen h-[63px] md:h-[84px] bg-none top-0 left-0 z-[100] bg-[#f4f6f5]"
       }>
-      <div className="max-w-[1640px] mx-auto h-full flex items-center justify-between px-4">
+      <div className="max-w-[1640px] mx-auto h-full flex items-center justify-between pl-4 pr-6">
         <img src="/SkimpJr.ico" className="w-[58px] h-[58px] md:w-[76px] md:h-[76px]" alt="" />
         <nav className="gap-2 hidden md:flex">
           <HashLink to="/#home" className="hash-link">

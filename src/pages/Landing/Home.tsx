@@ -7,9 +7,9 @@ const Home = () => {
       <div>
         <p className="text-sm uppercase tracking-widest text-gray-600">LET&apos;S BUILD SOMETHING TOGETHER</p>
         <h1 className="py-4 text-[35px] sm:text-[50px] leading-[30px] sm:leading-[60px] text-gray-700">
-          Hi, I&apos;m <span className="text-[#5651e5]">Yonatan</span>
+          Hi, I&apos;m <span className="text-[#3b76ff]">Yonatan</span>
         </h1>
-        <h2 className="py-4 text-[33px] sm:text-[50px] leading-[30px] sm:leading-[60px] text-gray-700">
+        <h2 className="pb-4 text-[33px] sm:text-[50px] leading-[30px] sm:leading-[60px] text-gray-700">
           Fullstack Web Developer
         </h2>
         <p className="max-w-[70%] mx-auto lg:mx-0 py-4 text-[16px] sm:text-[22px] text-gray-600">
