@@ -1,20 +1,21 @@
-import Navbar from "./components/Navbar";
+import { RouterProvider } from "react-router-dom";
+import router from "./routes";
 
 function App() {
   return (
     <>
-      <header className="w-screen h-16 bg-white">
-        <div className="max-w-[1440px] mx-auto h-full flex items-center justify-between">
-          <h1 className="text-xl font-semibold">Yonatan | SkimpJr</h1>
+      <RouterProvider router={router} />
+      {/* <header className="w-screen h-[84px] bg-none">
+        <div className="max-w-[1640px] mx-auto h-full flex items-center justify-between px-2 sm:px-4">
+          <img src="/SkimpJr.ico" className="w-[76px] h-[76px]" alt="" />
           <Navbar />
         </div>
       </header>
-      <main className="w-screen flex-grow bg-slate-50">
-        <div className="max-w-[1440px] mx-auto h-full flex flex-col">
-          <p>asd</p>
-          <p className="read-the-docs">Click on the Vite and React logos to learn more</p>
+      <main className="w-screen flex-grow">
+        <div className="max-w-[1440px] mx-auto h-full flex flex-col px-2 sm:px-4 text-center">
+          <LandingPage />
         </div>
-      </main>
+      </main> */}
     </>
   );
 }
