@@ -14,8 +14,8 @@ import SkillCard from "../../components/SkillCard";
 
 const Skills = () => {
   return (
-    <div id="skills" className="w-full lg:min-h-screen p-2 py-24 justify-center items-center">
-      <section className="mx-5 justify-center text-left">
+    <section id="skills" className="w-full lg:min-h-screen p-2 py-24 justify-center items-center">
+      <div className="mx-5 justify-center text-left">
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">Skills</p>
         <h2 className="py-4 text-4xl">My Capabilities</h2>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
@@ -32,8 +32,8 @@ const Skills = () => {
           <SkillCard skillName="GraphQl" skillImgUrl={GraphQl} />
           <SkillCard skillName="AWS" skillImgUrl={Aws} />
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   );
 };
 
