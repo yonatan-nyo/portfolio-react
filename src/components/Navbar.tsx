@@ -56,9 +56,27 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "fixed left-0 top-0 w-[240px] h-screen bg-[#ecf0f3] p-10 ease-in duration-500"
-              : "fixed left-[-150%] h-screen bg-[#ecf0f3] top-0 p-10 ease-in duration-500"
-          }></div>
+              ? "fixed left-0 top-0 w-[240px] h-screen bg-[#ecf0f3] p-4 pt-10 ease-in duration-500 flex flex-col gap-4"
+              : "fixed left-[-150%] w-[240px] h-screen bg-[#ecf0f3] top-0 p-4 pt-10 ease-in duration-500 flex flex-col gap-4 items-start"
+          }>
+          <p className="text-3xl font-bold leading-none">Yonatan</p>
+          <p className="text-xl font-bold italic leading-none mb-10">SkimpJr</p>
+          <HashLink to="/#home" className="hash-link ml-0">
+            HOME
+          </HashLink>
+          <HashLink to="/#about" className="hash-link ml-0">
+            ABOUT
+          </HashLink>
+          <HashLink to="/#skills" className="hash-link ml-0">
+            SKILLS
+          </HashLink>
+          <HashLink to="/projects" className="hash-link ml-0">
+            PROJECTS
+          </HashLink>
+          <HashLink to="/resume" className="hash-link ml-0">
+            RESUME
+          </HashLink>
+        </div>
       </div>
     </header>
   );
