@@ -30,82 +30,117 @@ const Resume = () => {
           </div>
         </div>
         <p className="text-center">
-          Analytical, innovative, and motivated web development professional with experience in customer service, team leadership,
-          and organizational effectiveness in fast-paced and challenging environments. Adept at developing strategies and driving
-          streamlined operations. Diverse analytical skills, team collaboration, and relationship building. Consummate
-          professional, and motivated leader, with solid interpersonal abilities and complex problem-solving skills. Effective and
-          proven track record of critical thinking, idea generation, and optimizing efficiencies.
+          Analytical, innovative, and highly motivated web developer with a proven track record of success in team leadership and
+          enhancing organizational effectiveness. Thrived in fast-paced and challenging environments, excels at developing
+          effective strategies and implementing streamlined operations to drive optimal results. Inspired and collaborated with
+          others, fostering growth and creating a positive work culture.
         </p>
 
         {/* Skills */}
-        <div className="text-center py-4">
+        <div className="text-left py-4">
           <h5 className="text-center underline text-[18px] py-2">Skills</h5>
-          <p className="py-2">
-            <span className="font-bold">Technical Skills</span>
-            <span className="px-2">|</span>Front-End Web Developer
+          <p className="py-1">
+            <span className="font-bold">Overall</span>
             <span className="px-2">|</span> HTML
-            <span className="px-2">|</span>CSS
-            <span className="px-2">|</span>Javascript
-            <span className="px-2">|</span>React
-            <span className="px-2">|</span>Next JS
-            <span className="px-2">|</span>SQL
-            <span className="px-2">|</span>NoSQL
-            <span className="px-2">|</span>Redux
-            <span className="px-2">|</span>Tailwind
-            <span className="px-2">|</span> Firebase
-            <span className="px-2">|</span> RESTAPI
+            <span className="px-2">|</span> CSS
+            <span className="px-2">|</span> Javascript
+            <span className="px-2">|</span> Typescript
+            <span className="px-2">|</span> C++
           </p>
-          <p className="py-2">
-            <span className="font-bold">Amazon Web Services</span>
-            <span className="px-2">|</span>Amazon Web Services Cloud Practitioner
+          <p className="py-1">
+            <span className="font-bold">Version Control</span>
+            <span className="px-2">|</span> Git
+            <span className="px-2">|</span> Github
+          </p>
+          <p className="py-1">
+            <span className="font-bold">Front-end</span>
+            <span className="px-2">|</span> React
+            <span className="px-2">|</span> Next JS
+            <span className="px-2">|</span> React Native
+            <span className="px-2">|</span> Vue js
+            <span className="px-2">|</span> Pinia
+            <span className="px-2">|</span> EJS
+            <span className="px-2">|</span> Redux
+            <span className="px-2">|</span> Tailwind
+          </p>
+          <p className="py-1">
+            <span className="font-bold">Back-end</span>
+            <span className="px-2">|</span> Microservices
+            <span className="px-2">|</span> SQL
+            <span className="px-2">|</span> NoSQL
+            <span className="px-2">|</span> GraphQl
+            <span className="px-2">|</span> Sequelize
+            <span className="px-2">|</span> Redis
+            <span className="px-2">|</span> Firebase
+            <span className="px-2">|</span> Tailwind
+            <span className="px-2">|</span> Jest
+            <span className="px-2">|</span> Supertest
+            <span className="px-2">|</span> Express
+          </p>
+          <p className="py-1">
+            <span className="font-bold">Others</span>
+            <span className="px-2">|</span> MVC
+            <span className="px-2">|</span> Firebase
+            <span className="px-2">|</span> REST API
+            <span className="px-2">|</span> Apollo
           </p>
         </div>
 
-        <h5 className="text-center underline text-[18px] py-4">Organization Activities</h5>
-        {/* Experience */}
+        <h5 className="text-center underline text-[18px] py-4">Education</h5>
+
+        <ul className="list-disc py-6">
+          <li className="py-1 text-left">
+            <p className="italic">
+              <span className="font-bold italic">Institut Teknologi Bandung</span>
+              <span className="px-2">|</span>Bandung, Indonesia (2023 - current)
+            </p>
+            <p className="py-1">Faculty of Computer</p>
+          </li>
+          <li className="py-1 text-left">
+            <p className="italic">
+              <span className="font-bold italic">Hacktiv8 BSD</span>
+              <span className="px-2">|</span>Tangerang Selatan, Indonesia (2023)
+            </p>
+            <p className="py-1">Full Stack Javascript (99.70)</p>
+          </li>
+          <li className="py-1 text-left">
+            <p className="italic">
+              <span className="font-bold italic">SMAK Penabur Gading Serpong</span>
+              <span className="px-2">|</span>Tangerang Selatan, Indonesia (2020 - 2023)
+            </p>
+            <p className="py-1">Natural Science (94.09)</p>
+          </li>
+        </ul>
+
+        <h5 className="text-center underline text-[18px] py-4">Activities</h5>
+
         <div className="py-6 text-left">
           <p className="italic">
-            <span className="font-bold italic">SMAK Penabur gading Serpong</span>
+            <span className="font-bold italic">Hacktiv8 BSD (Student)</span>
+            <span className="px-2">|</span>Tangerang Selatan, Indonesia
+          </p>
+          <p className="py-1 italic">Project Manager & Fullstack (2023)</p>
+          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+            <li>Created a project plan and timeline for the exploration and implementation of the new tech stack</li>
+            <li>Organized a team of 4 developers in exploring and implementing a new tech stack (NextJs) within 2 weeks.</li>
+          </ul>
+        </div>
+
+        <div className="py-6 text-left">
+          <p className="italic">
+            <span className="font-bold italic">SMAK Penabur gading Serpong (Student)</span>
             <span className="px-2">|</span>Tangerang Selatan, Indonesia
           </p>
           <p className="py-1 italic">Mentorship (2022 - 2023)</p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
-            <li>Ensured comprehensive mobile responsive UI layouts with understanding of HTML, CSS, and JavaScript.</li>
-            <li>Troubleshoot issues and concerns, configure operation and analytic plugins, and design changes as needed.</li>
-            <li>Worked directly with a diverse client base to understand and implement multiple technologies and programs.</li>
-          </ul>
-        </div>
-
-        {/*  */}
-        <h5 className="text-center underline text-[18px] py-4">Other Professional Experience</h5>
-
-        {/* Experience */}
-        <div className="py-6">
-          <p className="italic">
-            <span className="font-bold">CITY OF SHERMAN, TX</span>
-            <span className="px-2">|</span>Sherman, TX
-          </p>
-          <p className="py-1 italic">Paramedic / Firefighter (2010 – 2019)</p>
-          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+            <li>Inspired and motivated students across various subjects covered in the school curriculum.</li>
             <li>
-              Ensured proper implementation of firefighting techniques and practices including controlling and extinguishing
-              fires, operating hose lines, and fire ground operations, ventilation, and search and rescue.
+              Taught and guided students in challenging academic areas, fostering their understanding and helping them overcome
+              obstacles, especially on science related subjects.
             </li>
             <li>
-              Oversaw comprehensive understanding, operation, and maintenance of fire engines, ladder trucks, technical rescue
-              apparatus, and response trailers.
-            </li>
-            <li>
-              Performed ALS techniques as needed within emergency situations including the use of an esophageal or dual lumen
-              airway device and oral intubation using laryngoscopy.
-            </li>
-            <li>
-              Collaborated with a talented and high performing team of firefighters in high pressure and stressful situations as
-              needed.
-            </li>
-            <li>
-              Utilized proven and demonstrated knowledge of multiple certifications including Pediatric Advanced Life Support,
-              Prehospital Trauma Life Support, and Advanced Cardiac Life Support, among others.
+              Successfully contributed to significant academic improvements, resulting in an average score increase of 12% among
+              the students under my mentorship.
             </li>
           </ul>
         </div>
