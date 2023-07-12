@@ -21,7 +21,7 @@ import Slider from "../../components/Slider";
 
 const Skills = () => {
   return (
-    <section id="skills" className="w-full lg:min-h-screen p-2 py-24 justify-center items-center">
+    <section id="skills" className="w-full lg:min-h-screen p-2 pt-24 pb-16 justify-center items-center">
       <div className="mx-5 justify-center text-left">
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">Skills</p>
         <h2 className="py-4 text-4xl">My Capabilities</h2>

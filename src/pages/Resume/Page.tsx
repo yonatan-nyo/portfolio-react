@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 const Resume = () => {
   return (
     <section className="mx-3">
-      <div className="max-w-[940px] mx-auto p-3 pt-[120px]">
+      <div className="max-w-[940px] mx-auto p-3 pt-24 pb-16">
         <h1 className="text-center text-[30px] sm:text-[45px] leading-[30px] sm:leading-[60px] text-gray-700">Resume</h1>
         <div className="bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center">
           <h2 className="text-center text-xl sm:text-3xl">Yonatan Edward Njoto</h2>

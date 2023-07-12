@@ -2,6 +2,8 @@ import { createBrowserRouter, Outlet } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import LandingPage from "../pages/Landing/Page";
 import Resume from "../pages/Resume/Page";
+import Projects from "../pages/ProjectDetail/Page";
+import NotFound from "../pages/NotFound/Page";
 
 const router = createBrowserRouter([
   {
@@ -24,6 +26,14 @@ const router = createBrowserRouter([
       {
         path: "/resume",
         element: <Resume />,
+      },
+      {
+        path: "/projects",
+        element: <Projects />,
+      },
+      {
+        path: "*",
+        element: <NotFound />,
       },
     ],
   },

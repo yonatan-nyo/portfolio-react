@@ -41,7 +41,7 @@ const Navbar = () => {
           <HashLink to="/#skills" className="hash-link">
             SKILLS
           </HashLink>
-          <HashLink to="#" className="hash-link">
+          <HashLink to="/projects" className="hash-link">
             PROJECTS
           </HashLink>
           <HashLink to="/resume" className="hash-link">

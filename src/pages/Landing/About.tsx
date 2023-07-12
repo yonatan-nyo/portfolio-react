@@ -2,7 +2,7 @@ import { HashLink } from "react-router-hash-link";
 
 const About = () => {
   return (
-    <section id="about" className="min-h-screen w-full text-left pt-12 flex justify-center items-center pl-2 pr-4">
+    <section id="about" className="min-h-screen w-full text-left pt-24 pb-16 flex justify-center items-center pl-2 pr-4">
       <div className="w-full lg:flex lg:flex-row-reverse gap-8 justify-between md:gap-10">
         <div className="flex-grow justify-items-start">
           <p className="uppercase text-xl tracking-widest text-[#5651e5]">About</p>
