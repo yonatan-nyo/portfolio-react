@@ -2,12 +2,12 @@ import { HashLink } from "react-router-hash-link";
 
 const About = () => {
   return (
-    <div id="about" className="min-h-screen w-full text-left pt-12 flex justify-center items-center px-2">
-      <div className="w-full md:flex gap-8 justify-between">
-        <div>
+    <div id="about" className="min-h-screen w-full text-left pt-12 flex justify-center items-center pl-2 pr-4">
+      <div className="w-full lg:flex lg:flex-row-reverse gap-8 justify-between md:gap-10">
+        <div className="flex-grow justify-items-start">
           <p className="uppercase text-xl tracking-widest text-[#5651e5]">About</p>
           <h2 className="py-4 text-4xl">Who I Am</h2>
-          <p className="py-2 text-gray-600 whitespace-pre-line max-w-[800px]">
+          <p className="py-2 text-gray-600 whitespace-pre-line">
             With an enormous passion for programming ignited since high school, I have delved deep into the captivating realm of
             algorithms and competitive programming. This immersive journey has{" "}
             <strong>sharpened my problem-solving abilities and developed my curiosity to explore current world problems</strong>.
@@ -23,11 +23,11 @@ const About = () => {
             <p className="pt-4 text-[#3366CC] underline cursor-pointer">Check out some of my latest projects.</p>
           </HashLink>
         </div>
-        <div className="flex justify-center items-center">
-          <div className="grid max-w-[420px] w-auto h-auto shadow-xl shadow-gray-400 rounded-xl place-items-center p-4 hover:scale-105 ease-in duration-300">
+        <div className="w-fit self-stretch hidden lg:flex items-center flex-shrink-0">
+          <div className="flex max-w-[380px] w-fit h-fit shadow-xl shadow-gray-400 rounded-xl p-4 hover:scale-105 ease-in duration-300 about-illustration">
             <img
               src="/about-yonatan.png"
-              className="rounded-xl h-full w-auto object-contain"
+              className=" rounded-xl h-full w-auto object-contain"
               alt="about-yonatan"
               placeholder="blur"
             />

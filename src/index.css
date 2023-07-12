@@ -31,6 +31,18 @@ html {
   animation: slideRightToLeft 0.8s ease-in;
 }
 
+@keyframes slideLeftToRight {
+  0% {
+    transform: translateX(-10%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.about-illustration {
+  animation: slideLeftToRight 0.8s ease-in;
+}
+
 body {
   overflow-x: hidden;
 }

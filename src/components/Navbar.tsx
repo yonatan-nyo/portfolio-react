@@ -38,13 +38,13 @@ const Navbar = () => {
           <HashLink to="/#about" className="hash-link">
             ABOUT
           </HashLink>
-          <HashLink to="#" className="hash-link">
+          <HashLink to="/#skills" className="hash-link">
             SKILLS
           </HashLink>
           <HashLink to="#" className="hash-link">
             PROJECTS
           </HashLink>
-          <HashLink to="#" className="hash-link">
+          <HashLink to="/resume" className="hash-link">
             RESUME
           </HashLink>
         </nav>
