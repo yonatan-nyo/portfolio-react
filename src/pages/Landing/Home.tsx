@@ -20,18 +20,18 @@ const Home = () => {
         </p>
         <div className="flex max-w-[400px] mx-auto lg:mx-0 items-center justify-between py-4">
           <a href="https://www.linkedin.com/in/yonatan-njoto" target="_blank" rel="noreferrer">
-            <div className="ease in cursor-pointer rounded-full p-5 shadow-lg shadow-gray-400 duration-300 hover:scale-110 bg-[#fafafa]">
-              <FaLinkedinIn />
+            <div className="ease in cursor-pointer rounded-full p-5 shadow-lg shadow-gray-400 duration-300 hover:scale-110 bg-[#8eb7ff]">
+              <FaLinkedinIn color="white" />
             </div>
           </a>
           <a href="https://github.com/yonatan-nyo" target="_blank" rel="noreferrer">
-            <div className="ease in cursor-pointer rounded-full p-5 shadow-lg shadow-gray-400 duration-300 hover:scale-110 bg-[#fafafa]">
-              <FaGithub />
+            <div className="ease in cursor-pointer rounded-full p-5 shadow-lg shadow-gray-400 duration-300 hover:scale-110 bg-[#8eb7ff]">
+              <FaGithub color="white" />
             </div>
           </a>
           <a href="https://mail.google.com/mail/?view=cm&fs=1&to=yonatan.njoto@gmail.com" target="_blank" rel="noreferrer">
-            <div className="ease in cursor-pointer rounded-full p-5 shadow-lg shadow-gray-400 duration-300 hover:scale-110 bg-[#fafafa]">
-              <HiOutlineMail />
+            <div className="ease in cursor-pointer rounded-full p-5 shadow-lg shadow-gray-400 duration-300 hover:scale-110 bg-[#8eb7ff]">
+              <HiOutlineMail color="white" />
             </div>
           </a>
           <NavLink to="/resume">
