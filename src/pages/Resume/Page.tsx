@@ -8,10 +8,10 @@ const Resume = () => {
         <div className="bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center">
           <h2 className="text-center text-xl sm:text-3xl">Yonatan Edward Njoto</h2>
           <div className="flex">
-            <a href="https://www.linkedin.com/in/clint-briley-50056920a/" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/yonatan-njoto/" target="_blank" rel="noreferrer">
               <FaLinkedinIn size={20} style={{ marginRight: "1rem" }} />
             </a>
-            <a href="https://github.com/fireclint" target="_blank" rel="noreferrer">
+            <a href="https://github.com/yonatan-nyo" target="_blank" rel="noreferrer">
               <FaGithub size={20} style={{ marginRight: "1rem" }} />
             </a>
           </div>
@@ -83,6 +83,7 @@ const Resume = () => {
             <span className="px-2">|</span> Firebase
             <span className="px-2">|</span> REST API
             <span className="px-2">|</span> Apollo
+            <span className="px-2">|</span> Competitive Programming (Algorithms)
           </p>
         </div>
 
